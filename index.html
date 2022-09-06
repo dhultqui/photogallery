@@ -1,10 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>TK Photography</title>
         <meta charset="utf-8">
+        <meta name="description" content="I'm TK a photographer who primarily captures landscapes. Below is my gallery of my work.">
+        <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <p>Hello</p>
+        <div id="wrapper">
+            <header>
+                <h1>TK Photography</h1>
+                <nav>
+                    <h2>Main Navigation</h2>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#top">^<br>top</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <img src="TK.png" id="about-image" alt="A photographer uses their camera to capture a sunset."/>
+                    <h2 id="about" class="right">About</h2>
+                    <p class="right">Hello!<br> I'm TK and I'm a photographer.<br> I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p> 
+                </section>
+                <section>
+                    <h2 id="gallery" class="left">Gallery</h2>
+                    <p class="left">Here are some highlights of my work. The locations and year are in the caption.</p>
+                        <figure class="short">
+                            <img src="Chile.png" alt="A rocky beach as the sun sets in Chile."/>
+                            <figcaption class="top-left">Chile, 2001</figcaption>
+                        </figure>
+
+                        <figure class="short">
+                            <img src="Guatemala.png" alt="A path lined with flowers in front of a lake as the sun sets in Guatemala."/>
+                            <figcaption class="top-left white">Guatemala, 1997</figcaption>
+                        </figure>
+
+                        <figure class="short">
+                            <img src="Hawaii.png" alt="An aerial view of a lush island surrounded by bright blue water in Hawaii."/>
+                            <figcaption class="bottom-right white">Hawaii, 2010</figcaption>
+                        </figure>
+
+                        <figure class="tall">
+                            <img src="Iran.png" alt="Red and yellowish shrubbery cover the mountain landscape in Iran."/>
+                            <figcaption class="top-left">Iran, 1999</figcaption>
+                        </figure>
+
+                        <figure class="tall">
+                            <img src="Ireland.png" alt="Bright green and grassy hills with some trees are covered in light mist in Ireland."/>
+                            <figcaption class="bottom-right white">Ireland, 2012</figcaption>
+                        </figure>
+
+                        <figure class="tall">
+                            <img src="Italy.png" alt="A person canoes on a bright blue lake with a large, snow-covered mountain lined with pine trees in the background in Italy."/>
+                            <figcaption class="bottom-left white">Italy, 2015</figcaption>
+                        </figure>
+
+                        <figure class="short">
+                            <img src="Moab-Desert.png" alt="The sun peaks through a rock arc in the Moab Desert."/>
+                            <figcaption class="bottom-right white">Moab Desert, 2020</figcaption>
+                        </figure>
+                        
+                        <figure class="short">
+                            <img src="Rocky-Mountains.png" alt="Tall, stacked rock formations protrude from the shallow depths of a beach in the Rocky Mountains."/>
+                            <figcaption class="top-left">Rocky Mountains, 2009</figcaption>
+                        </figure>
+
+                        <figure class="short">
+                            <img src="Switzerland.png" alt="A snowy mountain landscape dotted with tall pine trees as the sun rises in Switzerland."/>
+                            <figcaption class="bottom-left">Switzerland, 2014</figcaption>
+                        </figure>
+                    
+                        <figure class="short">
+                            <img src="UK.png" alt="A grassy valley with slightly cloudy skies in the UK."/>
+                            <figcaption class="bottom-right white">UK, 2005</figcaption>
+                        </figure>
+                        
+                        <figure class="short">
+                            <img src="USA.png" alt="A grassy sloped hill dotted with flowers and distant pine trees with cloudy skies in the USA."/>
+                            <figcaption class="top-left white">USA, 2021</figcaption>
+                        </figure>
+                        
+                        <figure class="short">
+                            <img src="Wyoming.png" alt="A clear lake reflecting the background of pine trees and mountains in Wyoming."/>
+                            <figcaption class="top-left white">Wyoming, 2021</figcaption>
+                        </figure>
+                </section>
+                <section id="clear">
+                    <h2 id="contact">Contact</h2>
+                    <p class="white">Please fill out this form and I'll connect with you soon.</p>
+                    <form>
+                        <h3>Your contact information</h3>
+                        <label for="name">Name</label> 
+                        <input required type="text" name="Name" id="name" placeholder="Your full name">
+
+                        <label for="email">Email</label>
+                        <input required type="email" name="Email" id="email" placeholder="Enter your email address">
+                        
+                        <label for="message">Message</label>
+                        <input name="Message" id="message" placeholder="What can I help you with?">
+                        
+                        <button type="submit" id="sumbit" value="Submit">Submit</button>
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <small>Copyright 2021 TK Photography</small>
+            </footer>
+        </div>
     </body>
 </html>
