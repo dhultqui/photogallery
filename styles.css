@@ -118,11 +118,11 @@ figure:nth-child(1n+3) {
     right: 5px;
     font-size: 16px;
 }
-.white {
-    color: #FFFFFF;
-}
 figure, img {
     position: relative;
+}
+.white {
+    color: #FFFFFF;
 }
 #clear {
     clear: both;
